@@ -1,5 +1,4 @@
 # AirPy 
--------------------------
 
 > Indoor AirQuality monitoring. 
 > Rapsberry py with air quality sensors monitor air parameters on grafana dashboard.
@@ -16,9 +15,9 @@ This raspberry pi is also using as web server with a installation of grafana. Al
 
 
 ## Summary installation :
-1- connect sensors 
-2- i2cdetect -y 1 (for checking i2c connection)
-3- instal libraries : sudo apt install adafruit-circuitpython-bme680, pimoroni-sgp30, pms7003
-4- test each sensors with codes in sensors file
-5- configure a bdd mysql, an update the file air_pi.py
-5- launch airpi with : python3 air_pi-py 
+1. connect sensors 
+2. i2cdetect -y 1 (for checking i2c connection)
+3. instal libraries : sudo apt install adafruit-circuitpython-bme680, pimoroni-sgp30, pms7003
+4. test each sensors with codes in sensors file
+5. configure a bdd mysql, an update the file air_pi.py
+6. launch airpi with : python3 air_pi-py 
